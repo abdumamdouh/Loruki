@@ -22,6 +22,13 @@ img {
   width: 100%;
 }
 
+pre,
+code {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -92,6 +99,10 @@ img {
   color: #fff;
 }
 
+.text-primary {
+  color: var(--primary-color);
+}
+
 /* Text Sizes */
 
 .lead {
@@ -116,6 +127,29 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+/* Alert */
+
+.alert {
+  background-color: var(--light-color);
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+
+.alert i {
+  margin-right: 10px;
 }
 
 .flex {
